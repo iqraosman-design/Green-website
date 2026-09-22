@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+     background-color:rgb(5, 23, 10);
+     padding: 20px 0px;
+    
+}
+
+.feer{
+    display: flex;
+    gap:4px;
+}
+
+.feer img{
+      width: 55px;
+      height:40px;
+}
+.feer h1{
+    display: flex;
+    justify-content: between;
+    /* gap: 20px; */
+    align-items: center;
+    color:rgb(11, 49, 6);
+
+}
+header ul a{
+    text-decoration: none;
+    color: rgb(2, 42, 2);
+}
+.feer a{ 
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: rgb(5, 63, 5);
+}
+li{
+    list-style: none;
+}
+ .hodon{
+    border-bottom: 2px solid rgb(17, 78, 17);   
+}
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 8px;
+    font-weight: bold;
+    border: none;
+    /* border-radius: 8px; */
+    color: rgb(220, 250, 223);
+    background-color: rgb(195, 205, 195);
+    align-items: center;
+}
+.cart i{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: rgb(17, 78, 17);
+
+}
+.btn{
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(17, 78, 17);
+}
